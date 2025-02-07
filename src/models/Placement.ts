@@ -32,11 +32,11 @@ export type Placement = {
     /**
      * Status of the placement design
      */
-    readonly status: Placement.status;
+    readonly status?: Placement.status;
     /**
      * Reason behind failed status
      */
-    readonly status_explanation: string;
+    readonly status_explanation?: string;
 };
 export namespace Placement {
     /**

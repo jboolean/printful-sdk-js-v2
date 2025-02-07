@@ -4918,7 +4918,7 @@
         "type": "object",
         "title": "Placement",
         "description": "A placement is used to represent the physical area in which a design will be printed, and the technique used. It includes the layers that will be printed on the placement.",
-        "required": ["placement", "technique", "layers", "status", "status_explanation"],
+        "required": ["placement", "technique", "layers"],
         "properties": {
           "placement": {
             "description": "Name of the placement",
