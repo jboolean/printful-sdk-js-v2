@@ -480,7 +480,7 @@
             "$ref": "#/components/parameters/VariantColor"
           },
           {
-            "$ref": "#/components/parameters/Placement"
+            "$ref": "#/components/parameters/PlacementFilter"
           },
           {
             "$ref": "#/components/parameters/Locale"
@@ -518,7 +518,7 @@
             "$ref": "#/components/parameters/MockupStyleIds"
           },
           {
-            "$ref": "#/components/parameters/Placement"
+            "$ref": "#/components/parameters/PlacementFilter"
           },
           {
             "$ref": "#/components/parameters/Locale"
@@ -10729,7 +10729,7 @@
         },
         "description": "String values separated by comma. You can specify multiple variant colors filters."
       },
-      "Placement": {
+      "PlacementFilter": {
         "in": "query",
         "name": "placement",
         "schema": {

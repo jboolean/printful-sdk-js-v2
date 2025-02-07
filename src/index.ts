@@ -107,7 +107,7 @@ export type { Paging } from './models/Paging';
 export type { ParameterSource } from './models/ParameterSource';
 export type { PathStoreId } from './models/PathStoreId';
 export { Placement } from './models/Placement';
-export type { Placement } from './models/Placement';
+export type { PlacementFilter } from './models/PlacementFilter';
 export type { PlacementOptions } from './models/PlacementOptions';
 export type { PlacementsFilter } from './models/PlacementsFilter';
 export type { PlacementsList } from './models/PlacementsList';
